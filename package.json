@@ -1,10 +1,10 @@
 {
-  "name": "fireship",
+  "name": "leewardslope",
   "version": "0.0.1",
   "description": "Awesome content for developers",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/fireship-io/fireship.io"
+    "url": "https://github.com/akhil-naidu/leewardslope"
   },
   "scripts": {
     "test": "cypress open",

@@ -129,9 +129,12 @@
               "devServerTarget": "components:serve:production"
             }
           }
-        },
+        }
       }
     }
   },
-  "defaultProject": "components"
+  "defaultProject": "components",
+  "cli": {
+    "analytics": "cbd26ea4-b51a-4796-926d-594db9eb01ae"
+  }
 }

@@ -1,6 +1,6 @@
-baseURL = "https://fireship.io/"
+baseURL = "https://leewardslope.com/"
 languageCode = "en-us"
-title = "Fireship.io"
+title = "leewardslope"
 publishDir = "../public"
 pygmentsStyle = "atom"
 pygmentsUseClasses = true
