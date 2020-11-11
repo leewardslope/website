@@ -6,6 +6,11 @@
   "repository": {
     "url": "https://github.com/akhil-naidu/leewardslope"
   },
+  
+  "engines": {
+    "node": "8"
+  },
+  
   "scripts": {
     "test": "cypress open",
     "dev:design": "webpack --watch",
