@@ -63,7 +63,7 @@ export class AuthService {
 
   signOut() {
     this.authClient.signOut();
-    location.replace('https://fireship.io');
+    location.replace('https://leewardslope.com');
     this.ns.setNotification(onLogout);
     this.analytics.logEvent('logout', { });
   }
