@@ -15,6 +15,9 @@ jobs:
         with:
           hugo-version: '0.78.1'
           extended: true
+      - name: Build
+        run: hugo
+        
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.WORKFLOW_TOKEN }}'
