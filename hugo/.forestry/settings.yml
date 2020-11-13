@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: hugo
+  label: Content
 - type: directory
   path: hugo/content
   label: Pages
