@@ -51,8 +51,9 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.78.1
   preview_output_directory: public
+  install_dependencies_command: npm run build
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: hugo server -D -E -F --renderToDisk -d public
+  instant_preview_command: hugo
 version: 0.76.5
