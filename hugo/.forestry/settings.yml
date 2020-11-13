@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: hugo
 - type: directory
   path: hugo/content
   label: Pages
